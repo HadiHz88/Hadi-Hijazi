@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadi Hz</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4297053c17.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images\Hz.png">
+</head>
+
+<body>
+    <!---------------------Header--------------------->
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <img src="images\Hz.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CS student</p>
+                <h1>Hello, World !<br>I'm <span>Hadi</span> Hijazi</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------About--------------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\about-pic.jpg">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me !</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dignissimos minus
+                        maxime nam similique explicabo delectus velit quam cumque, suscipit voluptatibus
+                        assumenda culpa nostrum fuga modi laborum repudiandae quidem harum!</p>
+                    <div class="about-titles">
+                        <p class="about-links active-link" onclick="openLink('Skills')">Skills</p>
+                        <p class="about-links" onclick="openLink('Education')">Education</p>
+                        <p class="about-links" onclick="openLink('Experience')">Experience</p>
+                    </div>
+                    <div class="about-content active-list" id="Skills">
+                        <ul>
+                            <li><span>machi</span><br>xxx xxx</li>
+                            <li><span>kamen machi</span><br>yyy yyy</li>
+                            <li><span>kamen machi(1)</span><br>zzzz zzz</li>
+                        </ul>
+                    </div>
+                    <div class="about-content" id="Education">
+                        <ul>
+                            <li><span>2021</span><br>Lebanese Baccalaurat, General Science, GOOD (15.3) </li>
+                            <li><span>2021-current</span><br>Computer Science Degree, 2nd year, LU-Hadath</li>
+                            <li><span>20XX-20YY</span><br>ba3ed bas nchalah</li>
+                        </ul>
+                    </div>
+                    <div class="about-content" id="Experience">
+                        <ul>
+                            <li><span>2022</span><br>Call center Operator at InfoPro</li>
+                            <li><span>2023-current</span><br>Owner and manager of Hadi co.</li>
+                            <li><span>20XX</span><br>kamen ba3ed bas nchalah</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------Services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, architecto fugit? A iste
+                        perspiciatis iure minima ipsam eligendi ex dolorum assumenda eveniet suscipit illo, alias odio
+                        error voluptatibus ducimus non.</p>
+                    <a href="#">Learn more !</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h2>XXXX XXXX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, architecto fugit? A iste
+                        perspiciatis iure minima ipsam eligendi ex dolorum assumenda eveniet suscipit illo, alias odio
+                        error voluptatibus ducimus non.</p>
+                    <a href="#">Learn more !</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>YYYY YYYY</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, architecto fugit? A iste
+                        perspiciatis iure minima ipsam eligendi ex dolorum assumenda eveniet suscipit illo, alias odio
+                        error voluptatibus ducimus non.</p>
+                    <a href="#">Learn more !</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---------------------portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\tmp.jpg">
+                    <div class="info">
+                        <h3>XXXX XXXX XXXX</h3>
+                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                        <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\tmp.jpg">
+                    <div class="info">
+                        <h3>YYYY YYYY YYYY</h3>
+                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                        <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\tmp.jpg">
+                    <div class="info">
+                        <h3>ZZZZ ZZZZ ZZZZ</h3>
+                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                        <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More !</a>
+        </div>
+    </div>
+    <!---------------------Contact--------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><i class="fa-solid fa-paper-plane"></i> Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> hijazih24@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +961 78 998 530</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/hadihz.88/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV <i class="fa-solid fa-circle-down"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> Hadi Hz.</p>
+        </div>
+    </div>
+
+    <script>
+        var aboutlinks = document.getElementsByClassName('about-links');
+        var aboutcontents = document.getElementsByClassName('about-content');
+
+        function openLink(link) {
+            for (aboutlink of aboutlinks) {
+                aboutlink.classList.remove("active-link")
+            }
+            for (aboutcontent of aboutcontents) {
+                aboutcontent.classList.remove("active-list")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(link).classList.add("active-list")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxHQecd3_aF1CqDWWIyIbp5BgfzTCuuF-HwgmM5_hG948kQ1FUwKQcjpt36unV1X-CZfw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
